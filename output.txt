@@ -1,0 +1,592 @@
+Answer Example:
+
+URL : http://localhost:5000/api/weather/stats?station_id=USC00110072
+
+Returns: 
+{
+  "data": [
+    {
+      "avg_max": 15.334794520547945,
+      "avg_min": 4.3264462809917354,
+      "precip_cm": 78.01,
+      "station_id": "USC00110072",
+      "year": 1985
+    },
+    {
+      "avg_max": 12.696336996336996,
+      "avg_min": 2.1761904761904765,
+      "precip_cm": 50.53,
+      "station_id": "USC00110072",
+      "year": 1986
+    },
+    {
+      "avg_max": 17.76027397260274,
+      "avg_min": 6.32986301369863,
+      "precip_cm": 79.36,
+      "station_id": "USC00110072",
+      "year": 1987
+    },
+    {
+      "avg_max": 17.347267759562843,
+      "avg_min": 4.534972677595628,
+      "precip_cm": 54.1,
+      "station_id": "USC00110072",
+      "year": 1988
+    },
+    {
+      "avg_max": 15.65150684931507,
+      "avg_min": 3.9835616438356163,
+      "precip_cm": 79.37,
+      "station_id": "USC00110072",
+      "year": 1989
+    },
+    {
+      "avg_max": 16.90027397260274,
+      "avg_min": 5.96027397260274,
+      "precip_cm": 116.94,
+      "station_id": "USC00110072",
+      "year": 1990
+    },
+    {
+      "avg_max": 16.415966386554622,
+      "avg_min": 5.261299435028248,
+      "precip_cm": 79.06,
+      "station_id": "USC00110072",
+      "year": 1991
+    },
+    {
+      "avg_max": 14.991735537190085,
+      "avg_min": 5.037845303867403,
+      "precip_cm": 93.26,
+      "station_id": "USC00110072",
+      "year": 1992
+    },
+    {
+      "avg_max": 13.959663865546219,
+      "avg_min": 4.745325779036827,
+      "precip_cm": 142.07,
+      "station_id": "USC00110072",
+      "year": 1993
+    },
+    {
+      "avg_max": 14.960955056179776,
+      "avg_min": 3.7894150417827297,
+      "precip_cm": 66.88,
+      "station_id": "USC00110072",
+      "year": 1994
+    },
+    {
+      "avg_max": 15,
+      "avg_min": 3.6668555240793204,
+      "precip_cm": 95.29,
+      "station_id": "USC00110072",
+      "year": 1995
+    },
+    {
+      "avg_max": 13.765555555555556,
+      "avg_min": 2.3969529085872576,
+      "precip_cm": 80.85,
+      "station_id": "USC00110072",
+      "year": 1996
+    },
+    {
+      "avg_max": 14.686980609418281,
+      "avg_min": 3.2586111111111107,
+      "precip_cm": 77.35,
+      "station_id": "USC00110072",
+      "year": 1997
+    },
+    {
+      "avg_max": 17.216716417910447,
+      "avg_min": 6.246884272997033,
+      "precip_cm": 112.64,
+      "station_id": "USC00110072",
+      "year": 1998
+    },
+    {
+      "avg_max": 16.35086206896552,
+      "avg_min": 4.318103448275862,
+      "precip_cm": 92.19,
+      "station_id": "USC00110072",
+      "year": 1999
+    },
+    {
+      "avg_max": 14.545238095238096,
+      "avg_min": 2.8271386430678467,
+      "precip_cm": 89.39,
+      "station_id": "USC00110072",
+      "year": 2000
+    },
+    {
+      "avg_max": 15.70568181818182,
+      "avg_min": 4.334463276836159,
+      "precip_cm": 111.88,
+      "station_id": "USC00110072",
+      "year": 2001
+    },
+    {
+      "avg_max": 15.611016949152543,
+      "avg_min": 3.9588732394366195,
+      "precip_cm": 100.04,
+      "station_id": "USC00110072",
+      "year": 2002
+    },
+    {
+      "avg_max": 14.831428571428571,
+      "avg_min": 2.8396011396011396,
+      "precip_cm": 91.17,
+      "station_id": "USC00110072",
+      "year": 2003
+    },
+    {
+      "avg_max": 14.895197740112994,
+      "avg_min": 3.995774647887324,
+      "precip_cm": 96.51,
+      "station_id": "USC00110072",
+      "year": 2004
+    },
+    {
+      "avg_max": 16.16281690140845,
+      "avg_min": 4.700859598853868,
+      "precip_cm": 64.77,
+      "station_id": "USC00110072",
+      "year": 2005
+    },
+    {
+      "avg_max": 16.18498583569405,
+      "avg_min": 5.140168539325843,
+      "precip_cm": 80.08,
+      "station_id": "USC00110072",
+      "year": 2006
+    },
+    {
+      "avg_max": 15.522766570605189,
+      "avg_min": 4.148997134670487,
+      "precip_cm": 89.03,
+      "station_id": "USC00110072",
+      "year": 2007
+    },
+    {
+      "avg_max": 14.345042492917846,
+      "avg_min": 2.9108635097493036,
+      "precip_cm": 127.19,
+      "station_id": "USC00110072",
+      "year": 2008
+    },
+    {
+      "avg_max": 14.404815864022662,
+      "avg_min": 3.772394366197183,
+      "precip_cm": 134.38,
+      "station_id": "USC00110072",
+      "year": 2009
+    },
+    {
+      "avg_max": 15.319277108433734,
+      "avg_min": 4.5725903614457835,
+      "precip_cm": 114.54,
+      "station_id": "USC00110072",
+      "year": 2010
+    },
+    {
+      "avg_max": 15.41123287671233,
+      "avg_min": 4.5389041095890414,
+      "precip_cm": 85.73,
+      "station_id": "USC00110072",
+      "year": 2011
+    },
+    {
+      "avg_max": 17.394230769230766,
+      "avg_min": 5.404120879120879,
+      "precip_cm": 74.5,
+      "station_id": "USC00110072",
+      "year": 2012
+    },
+    {
+      "avg_max": 15.262569832402235,
+      "avg_min": 3.5058659217877093,
+      "precip_cm": 81.14,
+      "station_id": "USC00110072",
+      "year": 2013
+    },
+    {
+      "avg_max": 13.804972375690607,
+      "avg_min": 2.370718232044199,
+      "precip_cm": 98.63,
+      "station_id": "USC00110072",
+      "year": 2014
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "page_size": 50,
+    "total": 30,
+    "total_pages": 1
+  }
+}
+
+
+Example 2:
+
+http://localhost:5000/api/weather?station_id=USC0010XXXX&page=1&page_size=20
+
+{
+  "data": [
+    {
+      "date": "19850101",
+      "max": -22,
+      "min": -128,
+      "precip": 94,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850102",
+      "max": -122,
+      "min": -217,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850103",
+      "max": -106,
+      "min": -244,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850104",
+      "max": -56,
+      "min": -189,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850105",
+      "max": 11,
+      "min": -78,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850106",
+      "max": 28,
+      "min": -50,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850107",
+      "max": 22,
+      "min": -11,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850108",
+      "max": -6,
+      "min": -106,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850109",
+      "max": -22,
+      "min": -100,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850110",
+      "max": -39,
+      "min": -106,
+      "precip": 15,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850111",
+      "max": -44,
+      "min": -117,
+      "precip": 10,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850112",
+      "max": -111,
+      "min": -183,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850113",
+      "max": -6,
+      "min": -139,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850114",
+      "max": 17,
+      "min": -111,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850115",
+      "max": -89,
+      "min": -183,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850116",
+      "max": -33,
+      "min": -100,
+      "precip": 5,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850117",
+      "max": -33,
+      "min": -128,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850118",
+      "max": 11,
+      "min": -122,
+      "precip": 41,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850119",
+      "max": -117,
+      "min": -256,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850120",
+      "max": -200,
+      "min": -306,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850121",
+      "max": -44,
+      "min": -200,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850122",
+      "max": -39,
+      "min": -106,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850123",
+      "max": -17,
+      "min": -94,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850124",
+      "max": -6,
+      "min": -39,
+      "precip": 23,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850125",
+      "max": 0,
+      "min": -156,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850126",
+      "max": -61,
+      "min": -200,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850127",
+      "max": 0,
+      "min": -83,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850128",
+      "max": -44,
+      "min": -172,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850129",
+      "max": -33,
+      "min": -150,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850130",
+      "max": -22,
+      "min": -106,
+      "precip": 13,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850131",
+      "max": -100,
+      "min": -222,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850201",
+      "max": -83,
+      "min": -9999,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850202",
+      "max": -128,
+      "min": -211,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850203",
+      "max": -61,
+      "min": -200,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850204",
+      "max": -67,
+      "min": -133,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850205",
+      "max": -33,
+      "min": -100,
+      "precip": 20,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850206",
+      "max": -72,
+      "min": -178,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850207",
+      "max": -100,
+      "min": -211,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850208",
+      "max": -72,
+      "min": -233,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850209",
+      "max": -44,
+      "min": -139,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850210",
+      "max": -22,
+      "min": -50,
+      "precip": 25,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850211",
+      "max": -22,
+      "min": -50,
+      "precip": 30,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850212",
+      "max": -39,
+      "min": -117,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850213",
+      "max": -28,
+      "min": -150,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850214",
+      "max": -56,
+      "min": -150,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850215",
+      "max": -89,
+      "min": -194,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850216",
+      "max": 39,
+      "min": -117,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850217",
+      "max": 56,
+      "min": -39,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850218",
+      "max": 61,
+      "min": -17,
+      "precip": 0,
+      "station_id": "USC00110072"
+    },
+    {
+      "date": "19850219",
+      "max": 22,
+      "min": -89,
+      "precip": 0,
+      "station_id": "USC00110072"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "page_size": 50,
+    "total": 1729957,
+    "total_pages": 34600
+  }
+}
+
